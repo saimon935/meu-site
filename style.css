@@ -1,22 +1,23 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #fff8f0;
-}
+  background-color: #F5EBDC; /* Branco antigo BK */
+    color: #3e2c23; /* Marrom institucional BK */
 
+}
 /* Cabeçalho */
 header {
-    background-color: #f5e6c8;
-    display: flex;
+    background-color: yellow;
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding:  15px 30px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #a52a2a;
+    color: #D62300; /* Vermelho BK */
 }
 
 nav ul {
@@ -27,13 +28,15 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #a52a2a;
+    color: #FF8732; /* Pumpkin */
+
+
     font-weight: bold;
 }
 
 /* Promoção */
 .promo {
-    background-color: #e31837;
+    background-color: #D62300;
     color: white;
     text-align: center;
     padding: 60px 20px;
@@ -83,8 +86,8 @@ footer.institucional {
 
 /* Rodapé legal */
 .rodape-legal {
-    background-color: #f5e6c8;
-    color: #5a3e2b;
+    background-color: #FF8732;
+    color: #3e2c23;
     text-align: center;
     padding: 15px;
     font-size: 12px;
@@ -101,7 +104,7 @@ footer.institucional {
 
 .rodape-legal ul li a {
     text-decoration: none;
-    color: #5a3e2b;
+    color: #3e2c23;
     font-weight: bold;
 }
 
@@ -116,8 +119,6 @@ footer.institucional {
     text-align: center;
 }
 
-
-
 .ingredientes {
     background-color: #fff;
     padding: 40px 20px;
@@ -125,13 +126,13 @@ footer.institucional {
 }
 
 .ingredientes h2 {
-    color: #e31837;
+    color: #D62300;
     margin-bottom: 30px;
     font-size: 26px;
 }
 
 .ingrediente-card {
-    background-color: #f5e6c8;
+    background-color: #FF8732;
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
@@ -141,7 +142,7 @@ footer.institucional {
 }
 
 .ingrediente-card h3 {
-    color: #a52a2a;
+    color: #D62300;
     margin-bottom: 10px;
 }
 
@@ -156,19 +157,19 @@ footer.institucional {
 }
 
 .cardapio {
-    background-color: #fff8f0;
+    background-color: #F5EBDC;
     padding: 40px 20px;
     text-align: center;
 }
 
 .cardapio h2 {
-    color: #e31837;
+    color: #D62300;
     font-size: 28px;
     margin-bottom: 30px;
 }
 
 .produto {
-    background-color: #f5e6c8;
+    background-color: #FF8732;
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
@@ -182,7 +183,7 @@ footer.institucional {
 }
 
 .produto h3 {
-    color: #a52a2a;
+    color: #D62300;
     margin-bottom: 5px;
 }
 
@@ -194,6 +195,95 @@ footer.institucional {
 
 
 
+.pedido {
+    background-color: #F5EBDC;
+    padding: 40px 20px;
+    text-align: center;
+}
 
+.pedido h2 {
+    color: #D62300;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.pedido form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.pedido label {
+    font-weight: bold;
+    color: #3e2c23;
+}
+
+.pedido input,
+.pedido select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pedido button {
+    background-color: #D62300;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pedido button:hover {
+    background-color: #FF8732;
+}
+
+
+.localizacao {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.localizacao h2 {
+    color: #D62300;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.loja {
+    background-color: #F5EBDC;
+    border-left: 5px solid #D62300;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.loja h3 {
+    color: #D62300;
+    margin-bottom: 10px;
+}
+
+.loja p {
+    color: #3e2c23;
+    margin: 5px 0;
+}
+
+.loja a {
+    color: #D62300;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.loja a:hover {
+    color: #FF8732;
+}
 
 
